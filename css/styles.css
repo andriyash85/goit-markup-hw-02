@@ -2,11 +2,134 @@
   --first-text-color: #212121;
   --second-text-color: #757575;
   --third-text-color: #ffffff;
-  --hover-text-color: #2196f3;
+  --accent-text-color: #2196f3;
   --first-title-color: #212121;
   --second-title-color: #ffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.index-btn {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.nav-btn {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.logo-color {
+  color: var(--accent-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--first-text-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-text-color);
+}
+
+.header-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+}
+
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--first-text-color);
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-text-color);
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--second-text-color);
+}
+
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-text-color);
+}
+
+.btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.btn-light {
+  color: #ffffff;
+}
+
+.btn-dark {
+  color: #212121;
+}
+
+.slogan {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--second-title-color);
+}
+
+.slogan-section {
+  background-color: #2f303a;
+}
+
+.title {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--first-title-color);
+}
+
+.pre-title {
 }
