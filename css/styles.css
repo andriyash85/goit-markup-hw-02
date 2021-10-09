@@ -1,0 +1,12 @@
+:root {
+  --first-text-color: #212121;
+  --second-text-color: #757575;
+  --third-text-color: #ffffff;
+  --hover-text-color: #2196f3;
+  --first-title-color: #212121;
+  --second-title-color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
