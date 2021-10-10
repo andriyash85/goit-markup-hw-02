@@ -13,7 +13,8 @@ body {
 }
 
 .index-btn {
-  background: #f5f4fa;
+  color: var(--third-text-color);
+  background: #2196f3;
   border-radius: 4px;
 }
 
@@ -98,7 +99,7 @@ body {
 .btn:hover,
 .btn:focus {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: #188ce8;
 }
 
 .slogan {
@@ -175,4 +176,32 @@ body {
   line-height: 1.71x;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.portfolio-project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: inherit;
+}
+.portfolio-project-type {
+  font-weight: 400l;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: var(--second-text-color);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
