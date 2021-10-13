@@ -3,8 +3,6 @@
   --second-text-color: #757575;
   --third-text-color: #ffffff;
   --accent-text-color: #2196f3;
-  --first-title-color: #212121;
-  --second-title-color: #ffffff;
 }
 
 body {
@@ -14,11 +12,11 @@ body {
 
 .index-btn {
   color: var(--third-text-color);
-  background: #2196f3;
+  background: var(--accent-text-color);
   border-radius: 4px;
 }
 
-.nav-btn {
+.portfolio-btn {
   background: #f5f4fa;
   border-radius: 4px;
 }
@@ -32,12 +30,14 @@ body {
 }
 
 .menu-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: inherit;
+}
+.current {
+  color: var(--accent-text-color);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -53,12 +53,12 @@ body {
   color: var(--accent-text-color);
 }
 .logo-color-dark {
-  color: var(--first-title-color);
+  color: var(--first-text-color);
 }
 .logo-color-light {
-  color: var(--second-title-color);
+  color: var(--third-text-color);
 }
-.header-mail {
+.contacts-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -66,22 +66,8 @@ body {
 
   color: inherit;
 }
-.header-mail:hover,
-.header-mail:focus {
-  color: var(--accent-text-color);
-}
-
-.header-tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  color: var(--second-text-color);
-}
-
-.header-tel:hover,
-.header-tel:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--accent-text-color);
 }
 
@@ -99,7 +85,7 @@ body {
 
 .btn:hover,
 .btn:focus {
-  color: #ffffff;
+  color: var(--third-text-color);
   background-color: #188ce8;
 }
 
@@ -111,7 +97,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: var(--second-title-color);
+  color: var(--third-text-color);
 }
 
 .bgc {
@@ -123,7 +109,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--first-title-color);
+  color: var(--first-text-color);
 }
 
 .adv-pre-title {
@@ -132,10 +118,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--first-title-color);
+  color: var(--first-text-color);
 }
 .adv-about-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -150,11 +135,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--first-title-color);
+  color: var(--first-text-color);
 }
 
 .manager-spec-item {
-  font-weight: 400l;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -168,13 +152,12 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: var(--second-title-color);
+  color: var(--third-text-color);
 }
 .footer-mail,
 .footer-tel {
-  font-weight: 400l;
   font-size: 14px;
-  line-height: 1.71x;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -187,7 +170,6 @@ body {
   color: inherit;
 }
 .portfolio-project-type {
-  font-weight: 400l;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
