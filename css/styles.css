@@ -16,7 +16,7 @@ body {
   border-radius: 4px;
 }
 
-.portfolio-btn {
+.filtr-btn {
   background: #f5f4fa;
   border-radius: 4px;
 }
@@ -64,7 +64,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: inherit;
+  color: var(--second-text-color);
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -112,7 +112,7 @@ body {
   color: var(--first-text-color);
 }
 
-.adv-pre-title {
+.advant-pre-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -120,7 +120,7 @@ body {
   text-transform: uppercase;
   color: var(--first-text-color);
 }
-.adv-about-text {
+.advant-about-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
